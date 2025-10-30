@@ -1,0 +1,29 @@
+{
+  "name": "expense-tracker-server",
+  "private": true,
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node init && nodemon ./src/index.js",
+    "start": "node init && node ./src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-validator": "^7.3.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^10.2.3",
+    "mongoose": "^8.19.2",
+    "morgan": "^1.10.1",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

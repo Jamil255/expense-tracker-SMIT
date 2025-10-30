@@ -1,0 +1,14 @@
+/* Minimal global styles; MUI's CssBaseline handles sensible defaults */
+:root {
+    color-scheme: light;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
